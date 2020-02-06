@@ -20,7 +20,6 @@ def selection(num)
 end
 
 def runner
-  puts "2.) Eat a ham."
-  binding.pry
+ prompt_user
  selection(get_user_input)
  end
