@@ -20,5 +20,5 @@ end
 
 def runner
   prompt_user
-  selection(2)
+  selection()
 end
