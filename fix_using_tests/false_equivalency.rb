@@ -21,6 +21,6 @@ end
 
 def runner
   puts "2.) Eat a ham."
-  binding
+  binding.pry
  selection(get_user_input)
  end
